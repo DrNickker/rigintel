@@ -512,9 +512,7 @@ h2 {
   justify-content: space-around;
   background-image: url("../svg/stats_bg.svg");
   background-size: contain;
-  /*min-height: 60vh;*/
-  width: 99vw;
-  
+  width: 99vw;  
   height: 60vw;
   background-repeat: no-repeat;
 }
@@ -535,7 +533,6 @@ h2 {
   line-height: 1.5vw;
 }
 
-
 .products_img_title {
   position: absolute;
   background-image: url("../img/products-title-img.png");
@@ -547,18 +544,22 @@ h2 {
   margin-left: 67vw;
 }
 
-
-
-
-
+.products {
+  display: flex;
+  flex-direction: column;
+  width: 99vw;
+  height: 500vh;
+  margin-top: 50vw;
+}
 
 
 
 .product_background_one {
   background-image: url("../svg/product_background_one.svg");
   background-size: contain;
+  
   width: 99vw;
-  height: 500px;
+  height: 500vh;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;  
