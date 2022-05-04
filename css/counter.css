@@ -1,0 +1,51 @@
+@property --num {
+  syntax: "<integer>";
+  initial-value: 317503;
+  inherits: false;
+}
+
+.counter {
+    display: flex;
+    position: absolute;
+    font-family: "OpenSans-bold", sans-serif;
+    font-size: 4vw;
+    color: #ffffff;
+    padding-top: 10%;
+    z-index: 70;
+    margin-left: 71vw;
+    height: 40vw;
+  }
+
+.stats_earth_title {
+    display: flex;
+    position: absolute;
+    font-family: "OpenSans-bold", sans-serif;
+    padding-top: 7%;
+    margin-left: 71vw;
+    height: 40vw;
+    font-size: 1.5vw;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.counter::after {
+  content: 'I have a feeling I do not support @property';
+}
+
+@supports (background-image: paint(thingo)) {
+  .counter {
+    counter-set: num var(--num);
+  }
+  .counter::after {
+    content: counter(num);
+  }
+  .counter {
+    animation: counter 2147483647s linear infinite;
+  }
+  @keyframes counter {
+    to {
+      --num: 2147483647;
+    }
+  }
+}
