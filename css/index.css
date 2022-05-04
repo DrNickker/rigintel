@@ -487,7 +487,6 @@ h2 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-
   height: 2vw;
   font-family: "OpenSans-bold", sans-serif;
   font-size: 3.5vw;
@@ -509,6 +508,7 @@ h2 {
 
 .stats_bg_two {
   display: flex;
+  position: relative;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
@@ -517,6 +517,7 @@ h2 {
   width: 99vw;  
   height: 60vw;
   background-repeat: no-repeat;
+  z-index: -5;
 }
 
 .stats_bg_p {

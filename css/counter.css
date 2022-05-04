@@ -41,11 +41,12 @@
     content: counter(num);
   }
   .counter {
-    animation: counter 2147483647s linear infinite;
-  }
+    animation: counter 9147483647s linear infinite;
+    animation-duration: 7000000000s;
+  }                    
   @keyframes counter {
     to {
-      --num: 2147483647;
+      --num: 9147483647;
     }
   }
 }
