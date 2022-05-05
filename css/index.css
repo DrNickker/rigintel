@@ -547,6 +547,18 @@ h2 {
   margin-left: 9vw;
 }
 
+#products {
+display: flex;
+position: relative;
+top: 10vw;
+}
+
+#about {
+  display: flex;
+  position: relative;
+  top: 70vw;
+  }
+
 .products {
   display: flex;
   flex-direction: column;
