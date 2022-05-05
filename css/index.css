@@ -278,7 +278,7 @@ body {
   background-image: url("../img/partners-title.png");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 26%;
+  width: 22%;
   height: 22vw;
   margin-bottom: 0;
   margin-left: 60vw;
@@ -370,7 +370,7 @@ h2 {
   background-image: url("../img/stats-title-img.png");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 27%;
+  width: 22%;
   height: 27vw;
   top: 180vw;
   margin-left: 60vw;
@@ -541,10 +541,10 @@ h2 {
   background-image: url("../img/products-title-img.png");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 25%;
+  width: 23%;
   height: 25vw;
   top: 300vw;
-  margin-left: 67vw;
+  margin-left: 9vw;
 }
 
 .products {
