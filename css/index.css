@@ -165,7 +165,7 @@ body {
 .main {
   display: flex;
   width: 100%;
-  min-height: 8600px;
+  min-height: 12000px;
   margin: auto;
   flex-direction: column;
   align-items: center;
@@ -175,7 +175,7 @@ body {
 .background_space {
   position: absolute;
   width: 100%;
-  min-height: 8600px;
+  min-height: 12000px;
   z-index: -1; 
 }
 
@@ -197,7 +197,7 @@ body {
     background-image: url("../svg/background.svg");
     background-size: cover;
     width: 100%;
-    min-height: 8600px;
+    min-height: 12000px;
     z-index: -5;
 }
 
@@ -558,14 +558,14 @@ h2 {
 
 
 .product_background_one {
-  background-image: url("../svg/product_background_one.svg");
+  background-image: url("../svg/bg_products.svg");
   background-size: contain;
-  
-  width: 99vw;
-  height: 500vh;
-  background-repeat: no-repeat;
   display: flex;
-  flex-direction: column;  
+  position: relative;
+  width: 199vw;  
+  height: 260vw;
+  background-repeat: no-repeat;
+  z-index: -5;
 }
 
 
