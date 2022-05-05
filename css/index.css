@@ -651,7 +651,7 @@ top: 10vw;
   margin-left: 25%;
 }
 
-ul {
+.list_item {
   font-family: "OpenSans-regular", sans-serif;
   font-size: 1vw;
   color: #025bb5;
@@ -738,7 +738,7 @@ ul {
 .footer-container {
   position: absolute;
   width: 100%;
-  height: 220px;
+  height: 20%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -750,17 +750,22 @@ ul {
 }
 
 .logo_white_one {
-  width: 60%;
+  width: 50%;
 }
 
 .logo_white {
-  min-width: 200px;
+  min-width: 20vw;
+  max-width: 30%;
+}
+
+.address {
+  min-width: 20vw;
   max-width: 30%;
 }
 
 .logo_skolcovo_white_buttom  {
   
-  height: 60px;
+  height: 5vw;
   
  
 }
