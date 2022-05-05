@@ -601,8 +601,8 @@ top: 10vw;
 
 .product_assistant_title {
   width: 99vw;
-  height: 20%;
   margin-top: 25%;
+  margin-bottom: 5%;
 }
 
 .p_blue_h1 {
@@ -613,14 +613,50 @@ top: 10vw;
   line-height: 3vw;
 }
 
+.p_blue_logo {
+  font-family: "OpenSans-regular", sans-serif;
+  font-size: 2vw;
+  color: #025bb5;
+  text-transform: uppercase;
+  line-height: 3vw;
+  margin-bottom: 8%;
+}
+
 .product_assistant_body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  align-items: center;
-  justify-content: space-between;
+  align-items: flex-start;
+  justify-content: center;
   width: 99vw;
   height: 80%;
+}
+
+.product_assistant_body_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 45%;
+  height: 70%;
+}
+
+.product_assistant_body_text_logo {
+  width: 90%;
+  height: 100%;
+}
+
+.product_assistant_logo {
+  width: 50%;
+  margin-left: 25%;
+}
+
+ul {
+  font-family: "OpenSans-regular", sans-serif;
+  font-size: 1vw;
+  color: #025bb5;
+  text-transform: uppercase;
+  line-height: 2vw;
 }
 
 
