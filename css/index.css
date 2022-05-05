@@ -165,7 +165,7 @@ body {
 .main {
   display: flex;
   width: 100%;
-  min-height: 12000px;
+  min-height: 800vw;
   margin: auto;
   flex-direction: column;
   align-items: center;
@@ -175,7 +175,7 @@ body {
 .background_space {
   position: absolute;
   width: 100%;
-  min-height: 12000px;
+  min-height: 800vw;
   z-index: -1; 
 }
 
@@ -197,7 +197,7 @@ body {
     background-image: url("../svg/background.svg");
     background-size: cover;
     width: 100%;
-    min-height: 12000px;
+    min-height: 800vw;;
     z-index: -5;
 }
 
@@ -550,23 +550,27 @@ h2 {
 .products {
   display: flex;
   flex-direction: column;
-  width: 99vw;
-  height: 500vh;
-  margin-top: 50vw;
+  margin-top: 35vw;
 }
 
-
+.products_title {
+  display: flex;
+  position: relative;
+  margin-left: 70vw;
+}
 
 .product_background_one {
   background-image: url("../svg/bg_products.svg");
   background-size: contain;
   display: flex;
   position: relative;
-  width: 199vw;  
-  height: 260vw;
+  width: 99.1vw;
+  height: 399vw;
   background-repeat: no-repeat;
   z-index: -5;
 }
+
+
 
 
 
