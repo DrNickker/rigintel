@@ -11,7 +11,7 @@
     font-size: 4vw;
     color: #ffffff;
     padding-top: 10%;
-    z-index: 70;
+    z-index: -5;
     margin-left: 71vw;
     height: 40vw;
   }
