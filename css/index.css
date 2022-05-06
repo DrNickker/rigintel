@@ -577,7 +577,7 @@ top: 10vw;
   display: flex;
   position: relative;
   width: 99.1vw;
-  height: 399vw;
+  height: 365vw;
   background-repeat: no-repeat;
   z-index: -5;
 }
@@ -741,6 +741,15 @@ margin-top: 10%;
 }
 
 
+.news_img_title {
+position: relative;
+background-image: url("../img/news_img_title.gif");
+background-size: contain;
+border-radius: 150px;
+width: 15vw;
+height: 15vw;
+margin-left: 60vw;
+}
 
 
 
