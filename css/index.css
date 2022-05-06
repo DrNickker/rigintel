@@ -726,6 +726,19 @@ margin-top: 10%;
   margin-bottom: 1vw;
 }
 
+.complex_work {
+  display: flex;
+  width: 99vw;
+  height: 20%;
+  margin-top: 45vw;
+  align-items: center;
+  padding-left: 10vw;
+
+}
+
+.complex_work_img {
+  width: 80vw;
+}
 
 
 
