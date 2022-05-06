@@ -586,8 +586,9 @@ top: 10vw;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
   width: 99vw;
-  height: 399vw;
+  height: 320vw;
 }
 
 .product_assistant {
@@ -596,13 +597,11 @@ top: 10vw;
   align-items: center;
   width: 99vw;
   height: 25%;
-  align-items: center;
 }
 
 .product_assistant_title {
   width: 99vw;
-  margin-top: 25%;
-  margin-bottom: 5%;
+  margin-top: 20vw;
 }
 
 .p_blue_h1 {
@@ -692,32 +691,40 @@ margin-top: 10%;
 
 .product_master_logo_title_img {
   width: 60%;
-  margin-left: 15%;
   margin-top: 5%;
 }
 
+.operbot_text {
+  font-family: "OpenSans-regular", sans-serif;
+  font-size: 1vw;
+  color: #025bb5;
+  text-transform: uppercase;
+  line-height: 2vw;
+  margin-bottom: 1vw;
+}
 
+.product_opebot_body_text_two {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 
+.list_item_operbot {
+  font-family: "OpenSans-regular", sans-serif;
+  font-size: 1vw;
+  color: #025bb5;
+  line-height: 1.5vw;
+  margin-bottom: 2vw;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.operbot_text_bold {
+  font-family: "OpenSans-bold", sans-serif;
+  font-size: 1vw;
+  color: #025bb5;
+  text-transform: uppercase;
+  line-height: 2vw;
+  margin-bottom: 1vw;
+}
 
 
 
@@ -856,11 +863,8 @@ margin-top: 10%;
 
 .address {
   width: 15vw;
-  
 }
 
 .logo_skolcovo_white_buttom  {
-  
   height: 4vw;
-  
 }
