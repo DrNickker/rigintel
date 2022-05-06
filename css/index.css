@@ -637,13 +637,15 @@ top: 10vw;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 45%;
+  width: 100vw;
   height: 70%;
+  padding: 5%;
 }
 
 .product_assistant_body_text_logo {
   width: 90%;
   height: 100%;
+  margin-bottom: 8%;
 }
 
 .product_assistant_logo {
@@ -658,6 +660,101 @@ top: 10vw;
   text-transform: uppercase;
   line-height: 2vw;
 }
+
+.product_assistant_body_img_body_img {
+width: 40vw;
+margin-top: 10%;
+}
+
+.product_assistant_body_img {
+  margin-top: 15%;  
+}
+
+.product_master_logo {
+  width: 35%;
+  margin-left: 33%;
+}
+
+.p_blue_logo_master {
+  font-family: "OpenSans-regular", sans-serif;
+  font-size: 1.5vw;
+  color: #025bb5;
+  text-transform: uppercase;
+  line-height: 2.5vw;
+  margin-bottom: 18%;
+}
+
+.product_master_body_img_body_img {
+  width: 30vw;
+  margin-top: 5%;
+  padding-right: 5vw;
+}
+
+.product_master_logo_title_img {
+  width: 60%;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -754,18 +851,16 @@ top: 10vw;
 }
 
 .logo_white {
-  min-width: 20vw;
-  max-width: 30%;
+  width: 15vw;
 }
 
 .address {
-  min-width: 20vw;
-  max-width: 30%;
+  width: 15vw;
+  
 }
 
 .logo_skolcovo_white_buttom  {
   
-  height: 5vw;
+  height: 4vw;
   
- 
 }
