@@ -209,7 +209,7 @@ body {
   width: 25%;
   height: 40%;
   background-repeat: no-repeat;
-
+  overflow: hidden;
   top: 52vw;
   left: 60vw;
   -webkit-mask-image: url(/svg/video_mask.svg);
