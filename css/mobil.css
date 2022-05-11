@@ -31,9 +31,8 @@
         position: relative;
         width: 25%;
         height: 3rem;
-        align-self: center;
         margin-top: 5px;
-        right: 3%;
+        left: 70vw;
         border-radius: 50px;
         background: linear-gradient(180deg, #0a2f72, #3f67b8);
         font-family: "OpenSans-regular", sans-serif;
@@ -54,7 +53,7 @@
         align-items: center;
         position: fixed;
         display: flex; 
-        width: 100%;
+        width: 99vw;
         height: 15vw;
         background-repeat: no-repeat;
         flex-direction: row;
@@ -69,9 +68,12 @@
 
 
     .img-logo-blue-mobil {
+        position: absolute;
         width: 12vw;
-        z-index: 27;
-        margin-left: 350%
+        left: 42.5%;
+        top: 12%;
+        
+        
     }
 
     #menu__toggle {
@@ -98,7 +100,7 @@
         display: flex;
         position: relative;
         margin-top: -3vw;
-        margin-left: -5vw;
+        left: 50%;
         width: 8vw;
         height: 30%;
         cursor: pointer;
