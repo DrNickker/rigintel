@@ -206,11 +206,11 @@ body {
   align-items: center;
   justify-content: center;
   position: absolute;
-  width: 23%;
-  height: 43%;
+  width: 25%;
+  height: 40%;
   background-repeat: no-repeat;
   overflow: hidden;
-  top: 55vw;
+  top: 52vw;
   left: 60vw;
   -webkit-mask-image: url(/svg/video_mask.svg);
   -webkit-mask-position:center;
