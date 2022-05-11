@@ -218,7 +218,8 @@ body {
   -webkit-mask-size:contain;
   mask-position:center;
   mask-repeat:no-repeat;
-  mask-size:contain;  
+  mask-size:contain;
+  z-index: 100;
 }
 
 .about_video {
