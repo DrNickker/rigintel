@@ -10,6 +10,19 @@
     .hamburger-menu {
         display: none;
     }
+
+    .video_container_mobil {
+        display: none;
+
+  }
+
+     .video_container_mask_mobil {
+      display: none;
+
+  }    
+
+
+
 }
 
 
@@ -29,7 +42,7 @@
     .button_us_mobil {
         border: none;
         position: relative;
-        width: 25%;
+        width: 20%;
         height: 3rem;
         margin-top: 5px;
         left: 70vw;
@@ -53,7 +66,7 @@
         align-items: center;
         position: fixed;
         display: flex; 
-        width: 99vw;
+        width: 100vw;
         height: 15vw;
         background-repeat: no-repeat;
         flex-direction: row;
@@ -101,7 +114,7 @@
         position: relative;
         margin-top: -3vw;
         left: 50%;
-        width: 8vw;
+        width: 7vw;
         height: 30%;
         cursor: pointer;
         z-index: 1;
@@ -153,9 +166,62 @@
         line-height: 5vw;
         width: 40vw;
       }
+
       .menu__item:hover {
         background-color: #CFD8DC;
       }
+
+      .header_background_mobil {
+          top: 300px;
+          position: relative;
+          display: flex;
+          width: 100vw;
+          height: 30rem;
+          background-color: #F1F6FC;
+      }
+
+      .header_background_img { 
+        display: none;
+      }
+
+      .header_background { 
+        display: none;
+      }
+
+      .video_container_mobil {
+            width: 40vw;
+            height: 40vw;
+            border-radius: 15%;
+            position: absolute;
+            overflow: hidden;
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+      }
+
+      .video_container_mask_mobil {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            width: 80%;
+            height: 80%;
+            background-repeat: no-repeat;
+            overflow: hidden;
+            left: 30vw;
+      }
+
+      .video_container {
+            display: none;
+  }
+
+      .video_container {
+            display: none;
+  }
+
+
+
+
+
 
 
 

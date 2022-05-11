@@ -222,10 +222,8 @@ body {
   overflow: hidden;
   top: 52vw;
   left: 60vw;
+}
 
-
-
-  
  /* -webkit-mask-image: url(/svg/video_mask.svg);
   -webkit-mask-position:center;
   -webkit-mask-repeat:no-repeat;
@@ -234,7 +232,7 @@ body {
   mask-repeat:no-repeat;
   mask-size:contain;*/
   
-}
+
 
 .about_video {
   width: 100%;
