@@ -191,7 +191,7 @@
       .video_container_mobil {
             width: 40vw;
             height: 40vw;
-            border-radius: 15%;
+            border-radius: 50%;
             position: absolute;
             overflow: hidden;
             -webkit-transform: translate3d(0, 0, 0);
@@ -203,11 +203,11 @@
             align-items: center;
             justify-content: center;
             position: absolute;
-            width: 80%;
-            height: 80%;
+            width: 60%;
+            height: 60%;
             background-repeat: no-repeat;
             overflow: hidden;
-            left: 30vw;
+            left: 40vw;
       }
 
       .video_container {
