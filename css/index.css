@@ -201,25 +201,39 @@ body {
     z-index: -5;
 }
 
+.video_container {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
 .video_container_mask {
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
-  width: 25%;
+  width: 22%;
   height: 40%;
   background-repeat: no-repeat;
   overflow: hidden;
   top: 52vw;
   left: 60vw;
-  -webkit-mask-image: url(/svg/video_mask.svg);
+
+
+
+  
+ /* -webkit-mask-image: url(/svg/video_mask.svg);
   -webkit-mask-position:center;
   -webkit-mask-repeat:no-repeat;
   -webkit-mask-size:contain;
   mask-position:center;
   mask-repeat:no-repeat;
-  mask-size:contain;
-  z-index: 100;
+  mask-size:contain;*/
+  
 }
 
 .about_video {
