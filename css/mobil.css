@@ -1,0 +1,55 @@
+@media screen and (max-width: 990px) {
+    .img-logo {
+        display: none;
+    }
+
+    .menu-item {
+        display: none;
+    }
+
+    .button_us {
+        border: none;
+        position: absolute;
+        width: 25%;
+        height: 100px;
+        align-self: center;
+        margin-top: 5px;
+        margin-bottom: 52px;
+        right: 3%;
+        top: 20px;
+        border-radius: 50px;
+        background: linear-gradient(180deg, #0a2f72, #3f67b8);
+        font-family: "OpenSans-regular", sans-serif;
+        font-size: 3vw;
+        color: #ffffff;
+        position: fixed;
+        z-index: 70;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+};
+    
