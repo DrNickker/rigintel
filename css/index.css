@@ -763,13 +763,23 @@ margin-top: 10%;
   width: 20%;
   height: 25vw;
   top: 670vw;
-  margin-left: 9vw;
+  margin-left: -60vw;
 }
 
 .news {
-  margin-top: 20rem;
+  display: flex;
+  margin-top: 15rem;
   width: 99vw;
   height: 50rem;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.zaglushka {
+
+  width: 25vw;
+  height: auto;
 }
 
 
