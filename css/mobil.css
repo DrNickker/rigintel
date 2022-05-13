@@ -188,12 +188,16 @@
           top: 0px;
           position: relative;
           display: flex;
-          width: 100vw;
-          height: 60vh;
-          background-color: #F1F6FC;
-          padding: 7%;
           
       }
+
+      .header_background_mobil_img {
+        width: 100vw;
+        height: 100%;
+
+      }
+
+
 
       .header_background_img { 
         display: none;
@@ -207,12 +211,9 @@
         display: flex;
         position: absolute;
         width: 100px;
-        top: 70px;
+        top: 12vh;
         align-self: flex-end;
         margin-left: -70px;
-        
-        
-        
       }
 
       .video_container_mobil {
