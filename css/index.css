@@ -44,7 +44,7 @@ body {
 .header_background {
   position: absolute;
   z-index: -4;
-  width: 99.1vw;
+  width: 100vw;
   height: 180vh;
   background-repeat: no-repeat;
   display: flex;
@@ -172,7 +172,7 @@ body {
 
 .background_space {
   position: absolute;
-  width: 100%;
+  width: 99vw;
   min-height: 800vw;
   z-index: -1; 
 }
@@ -195,7 +195,7 @@ body {
     background-image: url("../svg/background.svg");
     background-size: cover;
     width: 100%;
-    min-height: 800vw;;
+    min-height: 900vw;;
     z-index: -5;
 }
 
