@@ -163,7 +163,7 @@ body {
 .main {
   display: flex;
   width: 100%;
-  min-height: 800vw;
+  min-height: 780vw;
   margin: auto;
   flex-direction: column;
   align-items: center;
@@ -195,7 +195,7 @@ body {
     background-image: url("../svg/background.svg");
     background-size: cover;
     width: 100%;
-    min-height: 900vw;;
+    min-height: 600vw;;
     z-index: -5;
 }
 

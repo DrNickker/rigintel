@@ -25,6 +25,10 @@
       display: none;
     }
 
+    .mission_mobil_img {
+      display: none;
+    }
+
 
 
 }
@@ -261,6 +265,65 @@
        left: 10%;
      }
 
+     .stats_img_title {
+       display: none;
+     }
+
+     .title_about {
+       width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-top: 35%;
+    }
+
+    .p_about {
+      font-family: "OpenSans-regular", sans-serif;
+      font-size: 3vw;
+      color: #ffffff;
+      line-height: 5vw;
+      width: 85vw;
+      padding-left: 5%;
+      padding-top: 10%;
+      text-align: left; 
+      height: 40vw;
+    }
+
+    .about {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding-right: 5%;
+      padding-left: 5%; 
+      background-size: contain;
+      background-repeat: no-repeat; 
+      align-items: center; 
+    }
+
+    .target-vision-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+      width: 80vw;
+      top: 110vw;
+      margin-left: 5%;
+    }
+    
+    
+    .target-vision {
+      height: 60vw;
+      margin-top: 100%;
+    }
+
+
+
+    .partners {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 500px;
+    }
 
 
 
