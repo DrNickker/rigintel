@@ -254,6 +254,12 @@
      }
 
 
+     .mission_mobil_img {
+       position: absolute;
+       width: 80vw;
+       top: 100%;
+       left: 10%;
+     }
 
 
 
