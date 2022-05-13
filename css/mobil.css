@@ -516,16 +516,63 @@
     }
 
     .to {
-      width: 60vw;
+      width: 50vw;
       margin-top: 20px;
   }
 
     .adress-title {
      display: none 
     }
+
+    .vacancies_container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      height: 10vw;
+      margin-top: 65vw;
+    }
     
+    .contacts_container {
+      margin-top: 140vw
+    }
 
+    .vacancies {
+      margin-top: 70vw;
+      
+      width: 99vw;
+      height: 10vh;
+    }
 
+    .p_vacancies {
+      font-family: "OpenSans-regular", sans-serif;
+      font-size: 3vw;
+      color: #ffffff;
+      line-height: 4vw;
+      align-self: flex-start;
+      justify-self: flex-start;
+      padding-left: 5%;
+      padding-top: 5%;
+      padding-right: 15%;
+      text-align: left; 
+    }
+
+    .vacancies_link {
+      font-family: "OpenSans-bold", sans-serif;
+      font-size: 3vw;
+      color: #77c7f9;
+      text-decoration: none;
+      line-height: 4vw;
+      width: 17vw;
+      text-transform: uppercase;
+    }
+
+    .vacancies_container_img {
+    
+      border-radius: 150px;
+      width: 100%;
+      height: auto
+    }
 
 };
 
