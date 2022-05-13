@@ -331,11 +331,26 @@
       margin-left: 0;
       width: 50%;
       height: 50vw;
-      top: 310vw
-      
+      top: 315vw 
     }
 
+    .partners_img {
+      margin-top: 5px;
+      background-image: url("../img/partners.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 99vw;
+      height: 30vw;
+    }
 
+    h1 {
+      font-family: "OpenSans-bold", sans-serif;
+      font-size: 5vw;
+      color: #ffffff;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 8vw;
+    }
 
 
 };
