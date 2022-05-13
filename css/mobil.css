@@ -247,18 +247,6 @@
             display: none;
      }
 
-       .background_space {
-            display: none;
-    }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -279,7 +267,7 @@
 
 
 
-    @media screen and (max-width: 990px) and (orientation: landscape) {
+   /* @media screen and (max-width: 990px) and (orientation: landscape) {
 
       .video_container_mobil {
             width: 10vw;
@@ -302,7 +290,7 @@
             overflow: hidden;
             left: 10vw;
       }
-    }
+    } */
 
 
 
