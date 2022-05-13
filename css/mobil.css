@@ -309,20 +309,30 @@
       margin-left: 5%;
     }
     
-    
     .target-vision {
       height: 60vw;
-      margin-top: 100%;
+      margin-top: 180%;
     }
-
-
 
     .partners {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin-top: 500px;
+      margin-top: 20vw;
+    }
+
+    .products_img_title  {
+      display: none;
+    }
+
+    .partners_img_title  {
+      position: absolute;
+      margin-left: 0;
+      width: 50%;
+      height: 50vw;
+      top: 310vw
+      
     }
 
 
