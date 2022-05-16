@@ -1,6 +1,6 @@
 @property --num {
   syntax: "<integer>";
-  initial-value: 317503;
+  initial-value: 345503;
   inherits: false;
 }
 
@@ -42,7 +42,7 @@
   }
   .counter {
     animation: counter 9147483647s linear infinite;
-    animation-duration: 7000000000s;
+    animation-duration: 80000000000s;
   }                    
   @keyframes counter {
     to {
