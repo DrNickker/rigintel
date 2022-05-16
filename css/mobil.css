@@ -30,7 +30,6 @@
     }
 
 
-
 }
 
 
@@ -50,11 +49,11 @@
     .button_us_mobil {
         border: none;
         position: relative;
-        width: 20%;
-        height: 3rem;
-        margin-top: 5px;
-        left: 75vw;
-        border-radius: 50px;
+        width: 15%;
+      
+        margin-top: 2px;
+        left: 82vw;
+        border-radius: 10px;
         background: linear-gradient(180deg, #0a2f72, #3f67b8);
         font-family: "OpenSans-regular", sans-serif;
         font-size: 2.2vw;
@@ -62,6 +61,11 @@
         color: #ffffff;
         position: fixed;
         z-index: 70;
+    }
+
+    .konvert {
+      width: 90%;
+
     }
 
     .button_us_mobil:hover {
