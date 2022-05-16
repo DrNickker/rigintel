@@ -29,6 +29,10 @@
       display: none;
     }
 
+    .partners_img_title_mobil {
+      display: none;
+    }
+
 
 }
 
@@ -333,9 +337,19 @@
     .partners_img_title  {
       position: absolute;
       margin-left: 0;
+      width: 40%;
+      height: 40vw;
+      top: 315vw 
+    }
+
+    .partners_img_title {
+      background-image: url("../img/mobil/partners-title.gif");
+      background-size: contain;
+      background-repeat: no-repeat;
       width: 50%;
       height: 50vw;
-      top: 315vw 
+      margin-bottom: 0;
+      
     }
 
     .partners_img {
