@@ -53,12 +53,11 @@
     .button_us_mobil {
         border: none;
         position: relative;
-        width: 15%;
-      
+        width: 18%;
         margin-top: 2px;
-        left: 82vw;
+        left: 80vw;
         border-radius: 10px;
-        background: linear-gradient(180deg, #0a2f72, #3f67b8);
+        background: linear-gradient(180deg, #f6f9ff, #e5edfb);
         font-family: "OpenSans-regular", sans-serif;
         font-size: 2.2vw;
         text-align: center;
@@ -68,7 +67,7 @@
     }
 
     .konvert {
-      width: 90%;
+      width: 80%;
 
     }
 
