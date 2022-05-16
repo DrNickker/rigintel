@@ -33,6 +33,10 @@
       display: none;
     }
 
+    .stats_two_mobil {
+      display: none;
+    }
+
 
 }
 
@@ -370,11 +374,37 @@
     }
 
     .stats_two {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      display: none;
+    }
+
+    .stats_two_mobil {
       margin-top: 150vw;
     }
+
+    .stats_map_mobil {
+      position: relative;
+      background-image: url("../img/map_regions.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 95vw;
+      height: 50vw;
+      margin-top: 30px;
+      margin-bottom: 50px;
+      
+    }
+    
+    
+    .stats_chart_mobil {
+      position: relative;
+      background-image: url("../img/chart-1.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 40vw;
+      margin-top: 30px;
+      margin-left: 12%;
+      margin-bottom: 20vw;
+    }
+    
 
 
     .stats_two_content {
@@ -444,7 +474,7 @@
     .products {
       display: flex;
       flex-direction: column;
-      margin-top: 180vw;
+      margin-top: 310vw;
     }
 
     .product_assistant_logo {
