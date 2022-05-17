@@ -163,7 +163,7 @@ body {
 .main {
   display: flex;
   width: 100%;
-  min-height: 780vw;
+  min-height: 830vw;
   margin: auto;
   flex-direction: column;
   align-items: center;
@@ -457,22 +457,46 @@ h2 {
   width: 74vw;
   height: 25vw;
   margin-right: 25vw;
+}
 
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70vh;
+  margin-top: 10vw;
 }
 
 .stats_three {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 33%;
 }
+
+.stats_three_wrapper {
+  
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 15vw;
+}
+
+.stats_three_wrapper_zbs {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
 
 .stats_bg {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  min-height: 60vh;
+  height: 10vh;
+  margin-top: 10vw;
 }
 
 .stats_bg_one {
@@ -500,7 +524,7 @@ h2 {
   align-items: flex-start;
   height: 2vw;
   font-family: "OpenSans-bold", sans-serif;
-  font-size: 3.5vw;
+  font-size: 4vw;
   color: #ffffff;
   text-transform: uppercase;
   line-height: 1.5vw;
@@ -517,14 +541,137 @@ h2 {
   align-self: flex-end;
 }
 
+.stats_bg_video {
+  width: 100px;
+  height: 100px;
+
+
+}
+
 .stats_bg_two {
   display: flex;
   position: relative;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
-  background-image: url("../svg/stats_bg.svg");
-  background-size: contain;
+  width: 99vw;  
+  height: 60vw;
+  background-repeat: no-repeat;
+  z-index: -5;
+}
+
+.stats_bg {
+  justify-content: flex-start
+}
+
+.stats_bg_p {
+  display: flex;
+  width: 80%;
+  margin-top: 1.5vw;
+  margin-left: 5vw;
+  align-items: center;
+}
+
+.p_blue {
+  display: flex;
+  width: 80%;
+  font-family: "OpenSans-bold", sans-serif;
+  font-size: 1.2vw;
+  color: #025bb5;
+  text-transform: uppercase;
+  line-height: 1.5vw;
+}
+
+.p_white {
+  display: flex;
+  width: 80%;
+  font-family: "OpenSans-bold", sans-serif;
+  font-size: 1.2vw;
+  color: #F1F6FC;
+  text-transform: uppercase;
+  line-height: 1.5vw;
+}
+
+
+
+
+/*.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start
+}
+
+.stats_three {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.stats_bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 10vh;
+  margin-top: 10vw;
+}
+
+.stats_bg_one {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 99vw;
+  height: 5vw;
+  margin-bottom: -4vw;
+}
+
+.stats_bg_digit {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.p_digit {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 2vw;
+  font-family: "OpenSans-bold", sans-serif;
+  font-size: 4vw;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 1.5vw;
+  padding-left: 5vw;
+}
+
+.p_digit_metrika {
+  display: flex;
+  font-family: "OpenSans-bold", sans-serif;
+  font-size: 2vw;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-left: 1vw;
+  align-self: flex-end;
+}
+
+.stats_bg_video {
+  width: 100px;
+  height: 100px;
+
+
+}
+
+.stats_bg_two {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
   width: 99vw;  
   height: 60vw;
   background-repeat: no-repeat;
@@ -551,6 +698,16 @@ h2 {
   line-height: 1.5vw;
 }
 
+.p_white {
+  display: flex;
+  width: 80%;
+  font-family: "OpenSans-bold", sans-serif;
+  font-size: 1.2vw;
+  color: #F1F6FC;
+  text-transform: uppercase;
+  line-height: 1.5vw;
+}*/
+
 .products_img_title {
   position: absolute;
   background-image: url("../img/products-title-img.png");
@@ -558,7 +715,7 @@ h2 {
   background-repeat: no-repeat;
   width: 23%;
   height: 25vw;
-  top: 300vw;
+  top: 310vw;
   margin-left: 9vw;
 }
 
@@ -577,7 +734,7 @@ top: 10vw;
 .products {
   display: flex;
   flex-direction: column;
-  margin-top: 50vw;
+  margin-top: 30vw;
 }
 
 .products_title {
@@ -902,16 +1059,18 @@ margin-top: 10%;
 
 
 .contacts_container {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   justify-content: flex-start;
   align-items: center;
+  margin-top: 530vw;
 }
 
 .h1_contacts_title {
   margin-bottom: 40px;
-  padding-top: 150px;
+  padding-top: 160px;
 }
   
 .contacts {
