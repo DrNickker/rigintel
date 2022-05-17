@@ -733,7 +733,7 @@ box-shadow: 0px -14px 22px -5px rgba(91, 140, 255, 0.6);
   width: 23%;
   height: 25vw;
   top: 320vw;
-  margin-left: 9vw;
+  margin-left: 71vw;
 }
 
 #products {
@@ -751,7 +751,7 @@ top: 10vw;
 .products {
   display: flex;
   flex-direction: column;
-  margin-top: 30vw;
+  margin-top: 25vw;
 }
 
 .products_title {
