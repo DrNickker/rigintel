@@ -577,13 +577,13 @@ top: 10vw;
 .products {
   display: flex;
   flex-direction: column;
-  margin-top: 35vw;
+  margin-top: 50vw;
 }
 
 .products_title {
   display: flex;
   position: relative;
-  margin-left: 70vw;
+  margin-left: 40vw;
 }
 
 .product_background_one {
@@ -770,7 +770,7 @@ margin-top: 10%;
   background-repeat: no-repeat;
   width: 20%;
   height: 25vw;
-  top: 670vw;
+  top: 690vw;
   margin-left: -60vw;
 
 }
@@ -801,8 +801,8 @@ margin-top: 10%;
 
 
 .vacancies {
-  margin-top: 15vw;
-  padding-top: 15vw;
+  margin-top: 10vw;
+  padding-top: 10vw;
   width: 99vw;
   height: 10vh;
 }
