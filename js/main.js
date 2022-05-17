@@ -6,3 +6,6 @@ window.addEventListener('load', () => { /* Страница загружена, 
   preloader.classList.add('preloader_hidden') /* добавляем ему класс для скрытия */
 })
 
+
+
+
