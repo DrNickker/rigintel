@@ -55,7 +55,7 @@ body {
   position: fixed;
   display: flex; 
   width: 100vw;
-  height: 120px;
+  height: 100px;
   background-repeat: no-repeat;
   flex-direction: row;
   justify-content: center;
@@ -69,10 +69,9 @@ body {
 
 
 .img-logo-blue {
-  position: absolute;
   left: 5%;
-  top: 35px;
   position: fixed;
+  top: 2.5%;
   width: 200px;
   z-index: 27;
 }
@@ -97,11 +96,11 @@ body {
   text-align: center;
   font-size: 12.5px;
   font-family: 'OpenSans-regular', sans-serif;
-  gap: 5px;
+  gap: 15px;
   width: 40%;
   position: fixed;
   z-index: 26;
-  padding-top: 55px;
+  align-self: center;
   padding-left: -50px
 }
 
