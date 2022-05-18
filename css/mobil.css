@@ -583,6 +583,28 @@
       line-height: 3vw;
     }
 
+    .p_white {
+      display: flex;
+      width: 80%;
+      font-family: "OpenSans-bold", sans-serif;
+      font-size: 2vw;
+      color: #F1F6FC;
+      text-transform: uppercase;
+      line-height: 3vw;
+    
+    }
+
+    .video_container_stats {
+      width: 99vw;
+      height: 58vw;
+      position: absolute;
+      z-index: -5;
+      /*-webkit-box-shadow: 5px -58px 43px 34px rgba(0, 0, 0, 0.84);
+      -moz-box-shadow: 5px -58px 43px 34px rgba(0, 0, 0, 0.84);
+      box-shadow: 5px -58px 43px 34px rgba(0, 0, 0, 0.84);*/
+      
+    }
+
     .stats_img {
       position: absolute;
       background-image: url("../img/mobil/stats_mobil.png");
