@@ -51,7 +51,21 @@ body {
   flex-direction: column;
 }
 
+
 .main_nav {
+  position: fixed;
+  display: flex; 
+  width: 100vw;
+  height: 100px;
+  background-repeat: no-repeat;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #F1F6FC;
+  z-index: 5;
+  flex-basis: auto;
+}
+
+.main_nav_one {
   position: fixed;
   display: flex; 
   width: 100vw;
