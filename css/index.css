@@ -601,6 +601,21 @@ h2 {
   height: 45vw;
   position: absolute;
   z-index: -5;
+  box-shadow: -5px -4px 97px 12px rgba(60,135,247,1);
+  -webkit-box-shadow: -5px -4px 97px 12px rgba(60,135,247,1);
+  -moz-box-shadow: -5px -4px 97px 12px rgba(60,135,247,1);
+
+
+
+
+
+
+
+
+
+
+
+
   /*-webkit-box-shadow: 5px -58px 43px 34px rgba(0, 0, 0, 0.84);
   -moz-box-shadow: 5px -58px 43px 34px rgba(0, 0, 0, 0.84);
   box-shadow: 5px -58px 43px 34px rgba(0, 0, 0, 0.84);*/
@@ -1096,7 +1111,7 @@ margin-top: 10%;
 }
   
 .contacts {
-  width: 100%;
+  width: 99vw;
   height: 30vw;
   display: flex;
   flex-direction: row; 
