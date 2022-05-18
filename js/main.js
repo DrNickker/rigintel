@@ -16,3 +16,8 @@ $(window).scroll(function (){
      $('.main_nav').removeClass('main_nav_one');				
   }
 });
+
+
+
+
+

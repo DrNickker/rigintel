@@ -210,11 +210,17 @@
         top: 0;
         transform: rotate(90deg);
       }
-      #menu__toggle:checked ~ .menu__box {
+       #menu__toggle:checked ~ .menu__box {
         visibility: visible;
         left: 0;
       }
       
+
+
+
+
+
+
       .menu__btn {
         display: flex;
         position: relative;
