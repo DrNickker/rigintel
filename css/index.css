@@ -626,9 +626,9 @@ h2 {
   height: 45vw;
   position: absolute;
   z-index: -5;
-  box-shadow: 18px 15px 127px 149px rgba(29,67,166,1);
-  -webkit-box-shadow: 18px 15px 127px 149px rgba(29,67,166,1);
-  -moz-box-shadow: 18px 15px 127px 149px rgba(29,67,166,1);
+  box-shadow: 0px 60px 36px 50px rgb(14, 37, 95);
+ /* -webkit-box-shadow: 18px 15px 127px 149px rgba(29,67,166,1);
+  -moz-box-shadow: 18px 15px 127px 149px rgba(29,67,166,1);*/
 
 
 
