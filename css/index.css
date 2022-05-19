@@ -650,7 +650,7 @@ h2 {
 .stats_video {
   object-fit: cover;
   width: 100%;
-  height: 120%;
+  height: 150%;
 }
 
 
@@ -776,7 +776,7 @@ h2 {
   background-repeat: no-repeat;
   width: 23%;
   height: 25vw;
-  top: 330vw;
+  top: 340vw;
   margin-left: 71vw;
 }
 
@@ -796,7 +796,7 @@ top: 10vw;
 .products {
   display: flex;
   flex-direction: column;
-  margin-top: 40vw;
+  margin-top: 50vw;
 }
 
 .products_title {
