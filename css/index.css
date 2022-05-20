@@ -386,7 +386,7 @@ h2 {
   justify-content: center;
   align-items: flex-start;
   margin-left: 80%;
-  bottom: 30%;
+  bottom: 60%;
 }
 
 
@@ -901,8 +901,9 @@ top: 10vw;
 
 
 .product_assistant_body_img_body_img {
-width: 40vw;
+width: 25vw;
 margin-top: 10%;
+margin-left: 10%;
 }
 
 .product_assistant_body_img {
@@ -924,14 +925,16 @@ margin-top: 10%;
 }
 
 .product_master_body_img_body_img {
-  width: 30vw;
+  width: 25vw;
   margin-top: 5%;
-  padding-right: 5vw;
+  margin-left: 10%;
+  
 }
 
 .product_master_logo_title_img {
-  width: 60%;
+  width: 50%;
   margin-top: 5%;
+  margin-left: 20%;
 }
 
 .operbot_text {
