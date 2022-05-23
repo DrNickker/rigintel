@@ -197,7 +197,7 @@ body {
 
 .background_space {
   position: absolute;
-  width: 99vw;
+  width: 100%;
   min-height: 400vw;
   z-index: -70; 
 }
@@ -1063,7 +1063,7 @@ margin-left: 0%;
   padding-left: 5%;
   padding-top: 5%;
   padding-right: 15%;
-  text-align: left; 
+  text-align: justify; 
 }
 
 .vacancies_link {

@@ -405,6 +405,7 @@
       padding-top: 10%;
       text-align: left; 
       height: 40vw;
+      text-align:justify;
     }
 
     .about {
@@ -730,7 +731,7 @@
       padding-left: 5%;
       padding-top: 5%;
       padding-right: 15%;
-      text-align: left; 
+      text-align: justify;
     }
 
     .vacancies_link {
