@@ -556,19 +556,19 @@
     }
 
     .stats_list_vsp {
-      margin-left: 45%;
-      margin-top: 130%;
+      margin-left: 40%;
+      margin-top: 100%;
     }
 
     .ul_stats {
       font-family: "OpenSans-regular", sans-serif;
-      font-size: 3vw;
+      font-size: 2vw;
       color: #ffffff;
       text-transform: uppercase;
       text-align: center;
-      line-height: 4vw;
+      line-height: 3vw;
       text-align: left;
-      margin-top: 20px;
+      margin-top: 10px;
     }
 
     h2 {

@@ -361,13 +361,13 @@ h2 {
 
 .ul_stats {
   font-family: "OpenSans-regular", sans-serif;
-  font-size: 1.2vw;
+  font-size: 1.1vw;
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
-  line-height: 1.7vw;
+  line-height: 1.3vw;
   text-align: left;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .stats_list {
@@ -385,8 +385,8 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin-left: 80%;
-  bottom: 60%;
+  margin-left: 71%;
+  bottom: 35%;
 }
 
 
