@@ -487,6 +487,7 @@ h2 {
   align-items: center;
   justify-content: center;
   padding-left: 5%;
+  height: 90%;
 }
 
 .stats_earth {
@@ -499,21 +500,24 @@ h2 {
 }
 
 .stats_map {
+  display: flex;
   background-image: url("../img/map_regions.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 40vw;
-  height: 20vw;
-  margin-bottom: 60px;
-  margin-left: 50px;
+  height: 30vw;
+  margin-bottom: 270px;
+  margin-left: 150px;
+  align-self: flex-start;
 }
 
 .stats_two_title {
   display: flex;
   flex-direction: row;
   width: 92vw;
-  gap: 20%;
+  gap: 27%;
   justify-content: center;
+  margin-top: -100px;
 }
 
 .stats_chart {
@@ -521,9 +525,9 @@ h2 {
   background-size: contain;
   background-repeat: no-repeat;
   width: 45vw;
-  height: 25vw;
+  height: 30vw;
   margin-right: 1vw;
-  margin-top: 150px;
+  margin-top: 70px;
 }
 
 .stats_img {

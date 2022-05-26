@@ -497,9 +497,10 @@
       background-size: contain;
       background-repeat: no-repeat;
       width: 95vw;
-      height: 50vw;
+      height: 70vw;
       margin-top: 30px;
       margin-bottom: 50px;
+      margin-left: 5%;
       
     }
     
@@ -511,7 +512,6 @@
       background-repeat: no-repeat;
       height: 40vw;
       margin-top: 30px;
-      margin-left: 6%;
       margin-bottom: 20vw;
     }
     
