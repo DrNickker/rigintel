@@ -397,7 +397,7 @@ h2 {
   align-items: center;
   width: 100%;
   height: 70vw;
-  margin-top: 30vw;
+  margin-top: 40vw;
 }
 
 .stats_img_title {
@@ -407,7 +407,7 @@ h2 {
   background-repeat: no-repeat;
   width: 22%;
   height: 27vw;
-  top: 180vw;
+  top: 190vw;
   margin-left: 60vw;
 }
 
@@ -833,7 +833,7 @@ top: 10vw;
 
 .product_assistant_title {
   width: 99vw;
-  margin-top: 20vw;
+  margin-top: 5vw;
 }
 
 .p_blue_h1 {
@@ -881,7 +881,7 @@ top: 10vw;
 
 .product_assistant_logo_round {
   width: 50%;
-  margin-left: 25%;
+  margin-left: 5%;
 }
 
 .product_assistant_logo {
@@ -932,7 +932,7 @@ margin-left: 0%;
 .product_master_logo_title_img {
   width: 50%;
   margin-top: 5%;
-  margin-left: 20%;
+  
 }
 
 .operbot_text {
@@ -971,7 +971,7 @@ margin-left: 0%;
   display: flex;
   width: 99vw;
   height: 20%;
-  margin-top: 50vw;
+  margin-top: 10vw;
   align-items: center;
   padding-left: 10vw;
 

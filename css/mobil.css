@@ -444,6 +444,7 @@
 
     .products_img_title  {
       display: none;
+      visibility: hidden;
     }
 
     .partners_img_title  {
