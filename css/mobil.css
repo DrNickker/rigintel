@@ -620,6 +620,44 @@
     
     }
 
+    .stats_number_top_one {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 33%;
+      height: 100%;
+      gap: 35px;
+      margin-top: 50px;
+    }
+
+
+    .p_digit_top {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      height: 2vw;
+      font-family: "OpenSans-bold", sans-serif;
+      font-size: 9vw;
+      color: #ffffff;
+      text-transform: uppercase;
+      line-height: 1.5vw;
+    }
+    
+    .p_white_top {
+      display: flex;
+      width: 100%;
+      font-family: "OpenSans-bold", sans-serif;
+      font-size: 2.5vw;
+      color: #F1F6FC;
+      text-transform: uppercase;
+      line-height: 5vw;
+      text-align: center;
+    }
+
+
+
+
+
     .video_container_stats {
       width: 100%;
       height: 58vw;
