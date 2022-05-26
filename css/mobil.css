@@ -376,7 +376,7 @@
     .main {
       display: flex;
       width: 100%;
-      min-height: 1500vw;
+      min-height: 1450vw;
       height: 100%;
       margin: auto;
       flex-direction: column;
@@ -583,7 +583,7 @@
     .products {
       display: flex;
       flex-direction: column;
-      margin-top: 30vw;
+      margin-top: 350vw;
     }
 
     .product_assistant_logo_round {
@@ -712,7 +712,12 @@
     }
     
     .contacts_container {
-      margin-top: 1000vw
+      margin-top: 5vw;
+    }
+
+    .contacts {
+      margin-bottom: 40vw;
+      height: 50vw;
     }
 
     .vacancies {
@@ -730,7 +735,7 @@
       justify-self: flex-start;
       padding-left: 5%;
       padding-top: 5%;
-      padding-right: 15%;
+      padding-right: 10%;
       text-align: justify;
     }
 

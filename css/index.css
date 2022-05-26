@@ -795,7 +795,7 @@ top: 10vw;
 .products {
   display: flex;
   flex-direction: column;
-  margin-top: 60vw;
+  margin-top: 85vw;
 }
 
 .products_title {
@@ -1129,7 +1129,7 @@ margin-left: 0%;
   justify-content: center;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 540vw;
+  
 }
 
 .h1_contacts_title {
@@ -1146,7 +1146,7 @@ margin-left: 0%;
   align-items: center;
   padding-left: 5%;
   padding-right: 5%;
-  margin-bottom: 10vw;
+  margin-bottom: 3vw;
   background: linear-gradient(180deg, rgba(1, 22, 44, 0.5), rgba(0, 0, 0, 0.5) 50%);
   gap: 5vw;
 }
