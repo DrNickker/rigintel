@@ -390,7 +390,6 @@ h2 {
 }
 
 
-
 .stats_wrapper {
   display: flex;
   flex-direction: column;
@@ -418,7 +417,7 @@ h2 {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-around;
-  height: 40%;
+  height: 35%;
   align-items: flex-start;
   padding-top: 50px;
 }
@@ -427,7 +426,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 130px;
+  margin-top: 25%;
 }
 
 .stats_two_content {
@@ -775,7 +774,7 @@ h2 {
   background-repeat: no-repeat;
   width: 23%;
   height: 25vw;
-  top: 340vw;
+  top: 320vw;
   margin-left: 71vw;
 }
 
@@ -795,7 +794,7 @@ top: 10vw;
 .products {
   display: flex;
   flex-direction: column;
-  margin-top: 85vw;
+  margin-top: 60vw;
 }
 
 .products_title {
