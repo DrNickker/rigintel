@@ -485,12 +485,12 @@ p.ism-badge a.ism-link:hover {
 
 
 #my-slider .ism-slide-0 .ism-caption-0 {
-  font-size: 1.2em;
+ 
   font-family: 'OpenSans-regular', sans-serif;
   position: absolute;
-  top: 60%;
+  top: 65%;
   left: 5%;
-  line-height: 1.4em;
+  line-height: 2em;
   border-radius: 0;
   border: none;
   color: rgb(10, 8, 48); background-color: rgba(255, 255, 255, 0.866);
@@ -498,7 +498,7 @@ p.ism-badge a.ism-link:hover {
 }
 
 #my-slider .ism-slide-0 .ism-caption-1 {
-  font-size: 1em;
+  
   font-family: sans-serif;
   position: absolute;
   top: 55%;
@@ -511,7 +511,7 @@ p.ism-badge a.ism-link:hover {
 }
 
 #my-slider .ism-slide-0 .ism-caption-2 {
-  font-size: 1em;
+  
   font-family: sans-serif;
   position: absolute;
   top: 55%;
@@ -524,7 +524,7 @@ p.ism-badge a.ism-link:hover {
 }
 
 #my-slider .ism-slide-1 .ism-caption-0 {
-  font-size: 1em;
+ 
   font-family: sans-serif;
   position: absolute;
   top: 55%;
@@ -537,7 +537,7 @@ p.ism-badge a.ism-link:hover {
 }
 
 #my-slider .ism-slide-1 .ism-caption-1 {
-  font-size: 1em;
+  
   font-family: sans-serif;
   position: absolute;
   top: 55%;
@@ -550,7 +550,7 @@ p.ism-badge a.ism-link:hover {
 }
 
 #my-slider .ism-slide-1 .ism-caption-2 {
-  font-size: 1em;
+ 
   font-family: sans-serif;
   position: absolute;
   top: 55%;
@@ -563,7 +563,7 @@ p.ism-badge a.ism-link:hover {
 }
 
 #my-slider .ism-slide-2 .ism-caption-0 {
-  font-size: 1em;
+  
   font-family: sans-serif;
   position: absolute;
   top: 55%;
@@ -576,7 +576,7 @@ p.ism-badge a.ism-link:hover {
 }
 
 #my-slider .ism-slide-2 .ism-caption-1 {
-  font-size: 1em;
+ 
   font-family: sans-serif;
   position: absolute;
   top: 55%;
@@ -589,7 +589,7 @@ p.ism-badge a.ism-link:hover {
 }
 
 #my-slider .ism-slide-2 .ism-caption-2 {
-  font-size: 1em;
+
   font-family: sans-serif;
   position: absolute;
   top: 55%;
@@ -604,7 +604,7 @@ p.ism-badge a.ism-link:hover {
 
 
 #my-slider .ism-slide-3 .ism-caption-0 {
-  font-size: 1em;
+
   font-family: sans-serif;
   position: absolute;
   top: 55%;
@@ -617,7 +617,7 @@ p.ism-badge a.ism-link:hover {
 }
 
 #my-slider .ism-slide-3 .ism-caption-1 {
-  font-size: 1em;
+ 
   font-family: sans-serif;
   position: absolute;
   top: 55%;
@@ -630,7 +630,7 @@ p.ism-badge a.ism-link:hover {
 }
 
 #my-slider .ism-slide-3 .ism-caption-2 {
-  font-size: 1em;
+ 
   font-family: sans-serif;
   position: absolute;
   top: 55%;
