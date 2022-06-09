@@ -188,7 +188,7 @@ body {
 .main {
   display: flex;
   width: 100%;
-  min-height: 830vw;
+  min-height: 850vw;
   margin: auto;
   flex-direction: column;
   align-items: center;
@@ -1070,7 +1070,7 @@ margin-left: 0%;
   display: flex;
   margin-top: 2vw;
   width: 99vw;
-  height: 30vw;
+  height: 70vh;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
@@ -1092,7 +1092,7 @@ margin-left: 0%;
 
 
 .vacancies {
-  margin-top: 5vw;
+  margin-top: 15vw;
   padding-top: 10vw;
   width: 99vw;
   height: 10vh;
@@ -1257,7 +1257,7 @@ margin-left: 0%;
 }
 
 .map-widget {
-  border-radius: 30px;
+  border-radius: 20px;
   height: 23vw;
   width: 60vw;
   padding: 10px;
