@@ -1082,6 +1082,11 @@ margin-left: 0%;
   height: auto;
 }
 
+.news_move {
+  position: absolute;
+  margin-bottom: 55vw;
+}
+
 
 
 

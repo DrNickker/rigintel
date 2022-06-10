@@ -696,6 +696,11 @@
       display: none
     }
 
+    .news_move {
+      position: absolute;
+      margin-bottom: 170vw;
+    }
+
     .products_title {
       margin:auto
     }
