@@ -444,14 +444,6 @@ h2 {
 }
 
 
-
-
-
-
-
-
-
-
 .stats_img_title {
   position: absolute;
   background-image: url("../img/stats-title-img.png");
@@ -459,7 +451,7 @@ h2 {
   background-repeat: no-repeat;
   width: 22%;
   height: 27vw;
-  top: 190vw;
+  top: 215vw;
   margin-left: 60vw;
 }
 
