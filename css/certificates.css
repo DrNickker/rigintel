@@ -1,14 +1,16 @@
 .certificates {
   display: flex;
-  width: 95vw;
-  height: 25vw;
-  flex-direction: row; 
+  width: 80vw;
+  height: 23vw;
+  align-self: center;
+  
+  
 }
 
 
 .kemponem-gevelopinsad img{
   
-  height: 95%;
+  height: 115%;
   -webkit-transform:scale(0.7);  
   -moz-transform:scale(0.7);
   -o-transform:scale(0.7);  
@@ -17,13 +19,14 @@
   -o-transition-duration: 0.4s;
   opacity: 0.8;  
   margin: 0 8px 3px 0;  
-    cursor: pointer;
+  cursor: pointer;
+
   }
   
   .kemponem-gevelopinsad img:hover{
-  -webkit-transform:scale(1.2);
-  -moz-transform:scale(1.2);  
-  -o-transform:scale(1.2);
+  -webkit-transform:scale(1.1);
+  -moz-transform:scale(1.1);  
+  -o-transform:scale(1.1);
   box-shadow:0px 0px 28px gray;  
   -webkit-box-shadow:0px 0px 28px gray;  
   -moz-box-shadow:0px 0px 28px gray;  
