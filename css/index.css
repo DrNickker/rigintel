@@ -1117,6 +1117,7 @@ margin-left: 0%;
 .vacancies_container_text {
   padding-left: 5vw;
   width: 100%;
+  z-index: 50;
 }
 
 .p_vacancies {
