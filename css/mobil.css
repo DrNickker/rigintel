@@ -49,6 +49,13 @@
       display: none;
     }
 
+    .certificates {
+      display: flex;
+      width: 95vw;
+      height: 23vw;
+      align-self: center;
+  }
+
 
 
     
@@ -474,6 +481,13 @@
       height: 30vw;
     }
 
+    .certificates {
+      display: flex;
+      width: 95vw;
+      height: 23vw;
+      align-self: center;
+  }
+
     h1 {
       font-family: "OpenSans-bold", sans-serif;
       font-size: 5vw;
@@ -501,9 +515,6 @@
       margin-top: 30px;
       margin-bottom: 50px;
       margin-left: 2%;
-      
-      
-      
     }
     
     
